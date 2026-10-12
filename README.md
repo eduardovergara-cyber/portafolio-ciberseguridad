@@ -9,9 +9,6 @@ Repositorio de proyectos académicos, informes y análisis de casos desarrollado
 ### 🔍 [Análisis de Caso: Incidente MediPay](./01-caso-medipay)
 Análisis normativo completo de un incidente de seguridad en empresa del sector salud chileno, aplicando marco regulatorio nacional (Leyes 19.628, 20.393 y 21.459) y europeo (RGPD).
 
-### 📊 [Evaluación de Riesgos y Matriz de Riesgo](./02-evaluacion-riesgos)
-Proceso completo de evaluación de vulnerabilidades, construcción de matriz de riesgos y aplicación de las 4 estrategias de tratamiento del riesgo según metodología ISO 27001.
-
 ---
 
 ## 🎯 Enfoque del portafolio
