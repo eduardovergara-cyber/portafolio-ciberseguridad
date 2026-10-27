@@ -1,10 +1,9 @@
 # Eduardo Vergara · Portafolio de Ciberseguridad
 
 Estudiante de 2° año de Ingeniería en Ciberseguridad (INACAP), Santiago, Chile.
-Busco una **práctica profesional** en ciberseguridad, seguridad de la información o soporte TI.
+Busco una oportunidad en un puesto junior de Soporte Técinco o Administrador de Linux.
 
-Este repositorio reúne mi trabajo en dos áreas: **seguridad ofensiva** (laboratorios prácticos)
-y **gobernanza, riesgo y cumplimiento (GRC)**.
+Este repositorio reúne mis aprendizajes y avances
 
 📫 [LinkedIn](https://www.linkedin.com/in/eduardo-vergara-ciberseguridad) · ✉️ tu-correo-del-CV · 🐙 [GitHub](https://github.com/eduardovergara-cyber)
 
@@ -12,22 +11,14 @@ y **gobernanza, riesgo y cumplimiento (GRC)**.
 
 ## 🧭 Contenido
 
-- [Seguridad ofensiva](#-seguridad-ofensiva)
+- [Administración Linux](#-administración-linux)
+- [Automatización: Bash y Python](#-automatización-bash-y-python)
+- [Hardening y seguridad defensiva](#-hardening-y-seguridad-defensiva)
 - [GRC](#-grc-gobernanza-riesgo-y-cumplimiento)
-- [Herramientas y conocimientos](#-herramientas-y-conocimientos)
+- [Nube (en aprendizaje)](#-nube-en-aprendizaje)
+- [Complemento: seguridad ofensiva](#-complemento-seguridad-ofensiva)
 - [En lo que trabajo ahora](#-en-lo-que-trabajo-ahora)
 - [Contacto](#-contacto)
-
----
-
-## 🛡️ Seguridad ofensiva
-
-Resolución y documentación de máquinas de HackTheBox: enumeración, explotación,
-escalada de privilegios y mitigación.
-
-| Proyecto | Descripción | Técnicas |
-|----------|-------------|----------|
-| [HTB Writeups](https://github.com/eduardovergara-cyber/htb-writeups) | Fawn, Cap y más a medida que avanzo | Nmap, análisis de tráfico, escalada de privilegios |
 
 ---
 
@@ -39,7 +30,6 @@ simulados y no contienen datos reales.
 | Proyecto | Descripción | Marco |
 |----------|-------------|-------|
 | [Caso MediPay](./grc/01-caso-medipay) | Análisis normativo de un incidente en el sector salud | Leyes 19.628, 20.393, 21.459 y RGPD |
-| [Evaluación de riesgos](./grc/02-evaluacion-riesgos) | Matriz de riesgos y estrategias de tratamiento | ISO 27001 |
 
 ---
 
@@ -47,22 +37,33 @@ simulados y no contienen datos reales.
 
 | Área | Detalle |
 |------|---------|
-| Sistemas | Linux (Parrot OS, Ubuntu), Windows |
+| Sistemas | Linux (Arch, Parrot OS, Ubuntu), Windows |
+| Virtualización | VMware Workstation |
 | Redes | TCP/IP, subneteo, modelo OSI, Wireshark |
-| Seguridad | Nmap, metodología de enumeración y explotación |
-| Programación | Python, Bash, SQL, HTML |
-| Bases de datos | SQL, MongoDB |
+| Programación | Python, Bash (en progreso), SQL, HTML |
+| Control de versiones | Git, GitHub |
 | Cloud | AWS (EC2, nivel básico, en aprendizaje) |
 | Normativa | ISO 27001, Ley 21.459, Ley 19.628, RGPD |
 
 ---
 
+## 🎯 Complemento: seguridad ofensiva
+
+Máquinas retiradas de HackTheBox, resueltas y documentadas como práctica de
+enumeración y escalada de privilegios.
+
+| Proyecto | Descripción | Técnicas |
+|----------|-------------|----------|
+| [HTB Writeups](https://github.com/eduardovergara-cyber/htb-writeups) | Fawn, Cap y más a medida que avanzo | Nmap, análisis de tráfico, escalada de privilegios |
+
+---
+
 ## 🔭 En lo que trabajo ahora
 
-- [ ] Sumar más máquinas de HackTheBox a mis writeups
-- [ ] Redactar un informe de pentesting con formato profesional
+- [ ] Auditoría de servidores Linux con Bash
+- [ ] Hardening de Rocky Linux con evidencia medible (Lynis, OpenSCAP)
+- [ ] Automatización del hardening con Ansible
 - [ ] Profundizar en inglés técnico
-- [x] Publicar mis primeros proyectos de GRC
 
 ---
 
