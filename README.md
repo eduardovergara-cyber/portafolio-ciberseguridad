@@ -1,60 +1,44 @@
-# Eduardo Vergara · Portafolio de Ciberseguridad
+# 🐧 Portafolio Linux & SysAdmin — Eduardo Vergara
 
-Estudiante de 2° año de Ingeniería en Ciberseguridad (INACAP), Santiago, Chile.
-Busco una oportunidad en un puesto junior de Soporte Técinco o Administrador de Linux.
-
-Este repositorio reúne mis aprendizajes y avances
-
-📫 [LinkedIn](https://www.linkedin.com/in/eduardo-vergara-ciberseguridad) · ✉️ tu-correo-del-CV · 🐙 [GitHub](https://github.com/eduardovergara-cyber)
+Estudiante de Ingeniería en Ciberseguridad (INACAP). Busco mi primer rol como
+**Soporte Linux / Junior SysAdmin**. Aquí documento mi laboratorio y los
+proyectos de administración, automatización y hardening que voy construyendo.
 
 ---
 
 ## 🧭 Contenido
 
 - [Administración Linux](#-administración-linux)
-- [Automatización: Bash y Python](#-automatización-bash-y-python)
-- [Hardening y seguridad defensiva](#-hardening-y-seguridad-defensiva)
-- [GRC](#-grc-gobernanza-riesgo-y-cumplimiento)
-- [Nube (en aprendizaje)](#-nube-en-aprendizaje)
-- [Complemento: seguridad ofensiva](#-complemento-seguridad-ofensiva)
+- [Herramientas](#-herramientas)
 - [En lo que trabajo ahora](#-en-lo-que-trabajo-ahora)
+- [Complemento: seguridad ofensiva](#-complemento-seguridad-ofensiva)
 - [Contacto](#-contacto)
 
 ---
 
-## 📋 GRC (Gobernanza, Riesgo y Cumplimiento)
+## 🐧 Administración Linux
 
-Trabajos académicos de análisis normativo y gestión de riesgos. Los casos son
-simulados y no contienen datos reales.
+Mi laboratorio corre en VMware Workstation, con máquinas de ambas familias de
+distribuciones:
 
-| Proyecto | Descripción | Marco |
-|----------|-------------|-------|
-| [Caso MediPay](./grc/01-caso-medipay) | Análisis normativo de un incidente en el sector salud | Leyes 19.628, 20.393, 21.459 y RGPD |
+| Sistema | Familia | Uso |
+|---------|---------|-----|
+| Arch Linux | Independiente | Instalado desde cero y configurado con bspwm |
+| Parrot OS | Debian | Máquina de trabajo (`apt`) |
+| Rocky Linux | RHEL | Servidor de laboratorio, instalación mínima (`dnf`) |
 
 ---
 
-## 🧰 Herramientas y conocimientos
+## 🧰 Herramientas
 
 | Área | Detalle |
 |------|---------|
-| Sistemas | Linux (Arch, Parrot OS, Ubuntu), Windows |
+| Sistemas | Linux (Arch, Parrot, Rocky, Ubuntu), Windows |
 | Virtualización | VMware Workstation |
-| Redes | TCP/IP, subneteo, modelo OSI, Wireshark |
-| Programación | Python, Bash (en progreso), SQL, HTML |
+| Scripting | Python, Bash (en progreso) |
 | Control de versiones | Git, GitHub |
+| Redes | TCP/IP, subneteo, modelo OSI, Wireshark |
 | Cloud | AWS (EC2, nivel básico, en aprendizaje) |
-| Normativa | ISO 27001, Ley 21.459, Ley 19.628, RGPD |
-
----
-
-## 🎯 Complemento: seguridad ofensiva
-
-Máquinas retiradas de HackTheBox, resueltas y documentadas como práctica de
-enumeración y escalada de privilegios.
-
-| Proyecto | Descripción | Técnicas |
-|----------|-------------|----------|
-| [HTB Writeups](https://github.com/eduardovergara-cyber/htb-writeups) | Fawn, Cap y más a medida que avanzo | Nmap, análisis de tráfico, escalada de privilegios |
 
 ---
 
@@ -63,12 +47,18 @@ enumeración y escalada de privilegios.
 - [ ] Auditoría de servidores Linux con Bash
 - [ ] Hardening de Rocky Linux con evidencia medible (Lynis, OpenSCAP)
 - [ ] Automatización del hardening con Ansible
-- [ ] Profundizar en inglés técnico
+- [ ] Preparación de certificación (LPIC-1 / RHCSA)
+
+---
+
+## 🎯 Complemento: seguridad ofensiva
+
+Máquinas retiradas de HackTheBox, resueltas y documentadas como práctica.
+Enlace: [HTB Writeups](https://github.com/eduardovergara-cyber/htb-writeups)
 
 ---
 
 ## 📫 Contacto
 
-- LinkedIn: [eduardo-vergara-ciberseguridad](https://www.linkedin.com/in/eduardo-vergara-ciberseguridad)
-- Correo: vergaraeduardo34@gmail.com
-- Disponibilidad: Hibrida/Presencial/Remota
+- **GitHub:** [@eduardovergara-cyber](https://github.com/eduardovergara-cyber)
+- **LinkedIn:** [eduardo-vergara-ciberseguridad](https://www.linkedin.com/in/eduardo-vergara-ciberseguridad)
